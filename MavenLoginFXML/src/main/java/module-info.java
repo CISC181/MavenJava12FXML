@@ -3,6 +3,7 @@ module MavenLoginFXML {
 	//	This is a royal pain in the ass.  
 	//	Java 1.9+ requires you to export namespaces
 	exports org.openjfx.hellofx;
+	exports application;
 
 	//	You have to tell java what assemblies are required
 	requires javafx.base;
